@@ -1,0 +1,27 @@
+{%extends "layout.html"%}
+
+{%block title%}
+TO-DO APP
+{%endblock%}
+
+{%block body%}
+
+<br></br>
+
+<br></br>
+
+<ol>
+{%for i in notes%}
+<li>{{i}}</li>
+{%endfor%}
+</ol>
+<form action = "{{url_for('todolist')}}"  method = "POST" >
+<input type="text" placeholder="Enter text here" name ="note">
+<button name="b1" value = "1">add note</button>
+<button name="b1" value = "2">remove note</button>
+<br>
+
+</form>
+
+<a href="/">home page</a>
+{%endblock%}

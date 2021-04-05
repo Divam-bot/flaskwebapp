@@ -1,0 +1,32 @@
+{%extends "layout.html" %}
+
+{%block title%}totaluser{%endblock%}
+
+{%block body%}
+
+<H1>To-do list</H1>
+<p>this is a a simple to-do list generator. all rights reserved with @divam</p>
+<br></br>
+<hr></hr>
+<br></br>
+
+<table border = "1">
+<tr>
+<th>NAME</th>
+<th>PASSWORD</th>
+<th>EMAIL</th>
+<th>PHONE</th>
+</tr>
+
+{%for d in udetails%}
+<tr>
+<td>{{d.uname}}</td>
+<td>{{d.password}}</td>
+<td>{{d.email}}</td>
+<td>{{d.phone}}</td>
+</tr>
+{%endfor%}
+
+</table>
+
+{%endblock%}

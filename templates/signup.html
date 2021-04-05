@@ -1,0 +1,28 @@
+{%extends "layout.html"%}
+
+{%block title%}
+sign up
+{%endblock%}
+
+{%block body%}
+<H1>To-do list</H1>
+<p>this is a a simple to-do list generator. all rights reserved with @divam</p>
+<br></br>
+<hr></hr>
+<br></br>
+
+
+<form action = "{{url_for('signup')}}"  method = "POST">
+
+<input type="text" placeholder="Enter your user_name" name ="uname">
+<br />
+<input type="text" placeholder="Enter password" name ="password">
+<br />
+<input type="text" placeholder="Enter email_id" name ="email">
+<br />
+<input type="text" placeholder="Enter mobile number" name ="phone">
+<br /><br />
+<button name="b1" value = "1">Register</button>
+
+</form>
+{%endblock%}

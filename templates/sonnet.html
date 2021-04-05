@@ -1,0 +1,25 @@
+{%extends "layout.html"%}
+
+{%block title%}Sonnet creater{%endblock%}
+
+{%block body%}
+
+<H1>Sonnet generator</H1>
+<p>this is a a simple Sonnet generator. all rights reserved with @divam</p>
+<br></br>
+<hr></hr>
+<br></br>
+
+<form action = "{{url_for('sonnet')}}" method ="POST">
+<input type="text" placeholder="Enter starting line of your sonnet" name = "sonnet_text">
+<br>
+<button name="b" value="1">Generate</button>
+</form>
+<br>
+<hr>
+
+<br>
+
+<a href="/">home page</a>
+
+{%endblock%}

@@ -1,0 +1,58 @@
+{%extends "layout.html"%}
+
+{%block title%}
+APPS
+{%endblock%}
+
+{%block body%}
+<br>
+<br>
+<br>
+
+<div class="card-deck" >
+    <div class="mx-auto">
+        <div class="shadow p-4 mb-4">
+            <div class="cards" style="width:300px ; height:400px">
+            <img class="cards-img-top" src="static/sonnet_300x500_1_300x200.jpg" alt="card-img">
+                <div class="card-body">
+                <h4 class="card-title">Sonnet Generator</h4>
+                <p class="card-text">Fun app to produce your own sonnet in shakespere way.</p>
+                <a href="/sonnet" class="btn btn-primary ">SONNET-GENERATOR</a>
+                </div>
+            </div>
+        </div>
+    </div>  
+    
+    <div class="shadow p-4 mb-4">
+        <div class="cards" style="width:300px ;height:400px">
+        <img class="cards-img-top" src="static/rps_300x500_1_300x200.png" alt="card-img">
+            <div class="card-body">
+            <h4 class="card-title">Rock-paper-sic</h4>
+            <p class="card-text">Fun app to play rock paper sicssor with computer.</p>
+            <a href="/rps" class="btn btn-primary ">ROCK-PAPER-SICSSOR</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="mx-auto">
+        <div class="shadow p-4 mb-4">
+            
+            <div class="cards" style="width:300px ;height:400px">
+            <img class="cards-img-top" src="static/to-do_300x500_1_300x200.png" alt="card-img">
+                <div class="card-body">
+                <h4 class="card-title">To-DO list</h4>
+                <p class="card-text">Create and edit your personal to-do list</p>
+                <a href="/todolist" class="btn btn-primary ">To-do-List</a> 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<br>
+
+<a href="/" class="btn btn-primary">Home</a>
+{%endblock%}
