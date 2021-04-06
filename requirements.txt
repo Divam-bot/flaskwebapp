@@ -3,7 +3,6 @@ gunicorn
 flask
 numpy
 tensorflow
-pickle
 json
 cv2
 flask_sqlalchemy
