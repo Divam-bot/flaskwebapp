@@ -2,6 +2,5 @@ pipreq==0.4
 gunicorn
 flask
 numpy
-tensorflow
-cv2
 flask_sqlalchemy
+tensorflow
