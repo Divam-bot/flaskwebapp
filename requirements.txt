@@ -1,2 +1,9 @@
 pipreq==0.4
 gunicorn
+flask
+numpy
+tensorflow
+pickel
+json
+cv2
+flask_sqlalchemy
