@@ -1,0 +1,1 @@
+web: gunicorn wsgi:covid_19
